@@ -56,19 +56,10 @@ class _HomeState extends State<Home> {
                 style: TextStyle(fontFamily: "nunito"),
               ),
             ),
-            // BottomNavyBarItem(
-            //   icon: Icon(Icons.line_style),
-            //   title: Text(
-            //     "Orders",
-            //     style: TextStyle(fontFamily: "nunito"),
-            //   ),
-            //   inactiveColor: kgreyDark,
-            //   activeColor: kdarkBlue,
-            // ),
             BottomNavyBarItem(
               icon: Icon(Icons.notifications),
               title: Text(
-                "Notifications",
+                "Notifikasi",
                 style: TextStyle(fontFamily: "nunito"),
               ),
               inactiveColor: kgreyDark,
@@ -77,7 +68,7 @@ class _HomeState extends State<Home> {
             BottomNavyBarItem(
               icon: Icon(Icons.person),
               title: Text(
-                "Profile",
+                "Profil",
                 style: TextStyle(fontFamily: "nunito"),
               ),
               inactiveColor: kgreyDark,
