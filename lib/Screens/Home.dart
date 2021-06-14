@@ -86,7 +86,6 @@ class _HomeState extends State<Home> {
           },
           children: <Widget>[
             Dashboard(),
-            // Orders(),
             Notifications(),
             Profile(),
           ],
